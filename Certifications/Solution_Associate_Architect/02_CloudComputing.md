@@ -4,6 +4,7 @@ It is on-demand delivery of IT resource like servers,storage,networks and many m
 <img src="https://github.com/kmitsolution/AWS/blob/main/Certifications/Solution_Associate_Architect/images/CloudComputing.JPG" width=700 height=300 />
 
 
+## Cloud Computing Advantages
 
 <img src="https://github.com/kmitsolution/AWS/blob/main/Certifications/Solution_Associate_Architect/images/CloudComputingAdvantages.jpg" width=700 height=300 />
 
