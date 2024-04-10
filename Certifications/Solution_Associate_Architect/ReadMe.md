@@ -7,7 +7,8 @@
 
 2. **Certification Details**
    - Important Links
-   - Exam Format
+   - Exam Details
+   - Create Account
 
 
 3. **Introduction to AWS**
