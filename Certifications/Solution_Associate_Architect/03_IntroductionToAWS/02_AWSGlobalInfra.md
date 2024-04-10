@@ -1,4 +1,4 @@
-Certainly! Let's include the definitions of Region, Availability Zone, and Edge Location in the overview of AWS:
+#Region, Availability Zone, and Edge Location
 
 1. **Global Infrastructure**:
    - AWS operates a global network of data centers, referred to as Regions, Availability Zones, and Edge Locations.
