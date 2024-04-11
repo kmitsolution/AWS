@@ -1,3 +1,4 @@
+# Cloud Computing Essentials
 The essential components of cloud computing encompass:
 
 - High Availability: Ensuring that services are consistently accessible and operational, minimizing downtime and maximizing reliability.
