@@ -35,6 +35,18 @@ When you attach a new EBS volume to an EC2 instance, it may not have a file syst
 
 ---
 
+```shell
+  1  lsblk
+    2  ls /dev/xvdb
+    3  fdisk /dev/xvdb
+    4  lsblk
+    5  mkfs -t ext4 /dev/xvdb
+    6  mkdir /tmp/test
+    7  mount /dev/xvdb /tmp/test
+    8  cd /tmp/test/
+    9  touch 1.txt 2.txt
+   10  ls
+```
 ### **Mounting an EBS Volume**
 
 Once the EBS volume is formatted, you can mount it to a directory on your EC2 instance. This allows your EC2 instance to access and store data on the new volume.
