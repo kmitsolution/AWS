@@ -114,17 +114,20 @@ If you don't use **Homebrew**, you can install it manually:
 
 1. **Download the latest release** of `eksctl`:
    ```bash
-   curl --silent --location "https://github.com/weaveworks/eksctl/releases/download/v0.101.0/eksctl_Linux_amd64.tar.gz" -o "eksctl.tar.gz"
+   ARCH=amd64
+   PLATFORM=$(uname -s)_$ARCH
+   curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
+
    ```
 
 2. **Extract the archive**:
    ```bash
-   tar -xvzf eksctl.tar.gz
+   tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
    ```
 
 3. **Move `eksctl` to `/usr/local/bin/`**:
    ```bash
-   sudo mv eksctl /usr/local/bin/
+   sudo mv /tmp/eksctl /usr/local/bin
    ```
 
 #### **Step 3: Verify Installation**
