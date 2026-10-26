@@ -4,6 +4,9 @@ In this lab, you will build a working serverless API using Amazon API Gateway, A
 
 The goal is to understand how an HTTP request travels from a client to a database and how the response returns to the client.
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7aa4623b-c7e3-4648-b02b-e47e09d943e9" />
+
+
 ## 1. What will you build?
 
 Postman / Web Application
